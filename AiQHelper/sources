@@ -1,0 +1,10 @@
+TARGETNAME=AiQHelper
+#TARGETPATH=$(BASEDIR)\lib
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+INCLUDES=.\
+
+SOURCES=AiQHelper.c    \
+        public.c       \
+		inject.c       \
